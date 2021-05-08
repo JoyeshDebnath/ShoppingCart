@@ -141,12 +141,13 @@ class App extends React.Component{
 
         {/*display the total cost*/} 
         <div style={{
-          marginLeft:100,
+          fontWeight:800,
           fontSize: 20,
           color: 'red',
-          padding: 20
+          padding: 20,
+          backgroundColor:'yellow'
         }}>
-          Total Cost of All Products :   {this.getCost()}
+          Total Cost of All Products : Rs.  {this.getCost()}
         </div>
       </div>
     );
